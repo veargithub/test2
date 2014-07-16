@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <!-- titlebar -->
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="20dip">
+            <ImageView android:layout_width="50dip"
+                android:layout_height="50dip" 
+                android:src="@drawable/ic_launcher"/>
+            <LinearLayout android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1">
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:text="嗯嗯嗯"
+                	 />
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:text="05-09"
+                	 />
+            </LinearLayout>
+        	<Button android:layout_width="wrap_content"
+        	    android:layout_height="25dip"
+        	    android:layout_gravity="center_vertical"
+        	    android:text="..."/>
+        </LinearLayout>
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dip"
+            android:layout_marginTop="20dip"
+            android:textSize="20sp"
+            android:text="股龄两年" />
+        
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#FFF8F8F8"
+            android:layout_marginLeft="70dip"
+            android:layout_marginRight="25dip" />
+        	
+        
+    </LinearLayout>
+    
+    <!-- bottom -->
+
+</LinearLayout>
